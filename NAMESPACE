@@ -1,0 +1,18 @@
+useDynLib(EITMdistricting)
+
+import(coda,
+       stats,
+       MCMCpack,
+       sp,
+       spdep,
+       maptools,
+       igraph,
+       gpclib)
+
+export(districting,
+       gen.cand,
+       MCMCmetropSO,
+       sample.plans)
+
+
+

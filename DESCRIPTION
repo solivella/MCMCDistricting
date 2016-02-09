@@ -1,0 +1,10 @@
+Package: EITMdistricting
+Version: 0.1
+Date: 2011-06-02
+Title: EITM Districting Package
+Author: Santiago Olivella
+Maintainer: Santiago Olivella <olivella@wustl.edu>
+Depends: R (>= 2.10.0), sp, spdep, maptools, coda, stats, MCMCpack, igraph, gpclib
+Description: This package contains functions needed to perform MCMC sampling of distributions defined over feasible districting plans. It extends the Metropolis routine written for package MCMCpack, and allows users to specify their own objective functions to define the distribution from which samples are taken. Its main argument is a SpatialPolygonsDataFrame object (package 'sp') defining the basic geographical units (e.g. census blocks) used for creating electoral districs. 
+License: GPL-2 + file LICENSE
+
